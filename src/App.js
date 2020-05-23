@@ -33,11 +33,11 @@ function App() {
       {/* <IntervalClassCouunter/> */}
       {/* <IntervalHookCounter/> */}
       {/* <DataFetching/> */}
-      {/* <UserContext.Provider value = {'Shashank'}>
+      <UserContext.Provider value = {'Shashank'}>
         <ChannerlContext.Provider value = {'Kumar'}>
         <ComponentA/>
         </ChannerlContext.Provider>
-      </UserContext.Provider> */}
+      </UserContext.Provider>
 
     </div>
   );
