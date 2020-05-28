@@ -3,7 +3,7 @@ import ComponentF from './ComponentF'
 import {UserContext, ChannelContext, ChannerlContext } from '../App'
 
 function ComponentE() {
-    const user = UseContext(UserContext)
+    const user = useContext(UserContext)
     const channel = useContext(ChannerlContext)
     return (
         <div>

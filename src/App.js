@@ -14,6 +14,9 @@ import IntervalClassCouunter from './components/IntervalClassCouunter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import ComponentA from './components/ComponentA';
+import CounterReducer from './components/CounterReducer';
+import CounterReducer2 from './components/CounterReducer2';
+import CounterReducer3 from './components/CounterReducer3';
 
 export const UserContext = React.createContext()
 export const ChannerlContext = React.createContext()
@@ -33,11 +36,15 @@ function App() {
       {/* <IntervalClassCouunter/> */}
       {/* <IntervalHookCounter/> */}
       {/* <DataFetching/> */}
-      <UserContext.Provider value = {'Shashank'}>
+      {/* <UserContext.Provider value = {'Shashank'}>
         <ChannerlContext.Provider value = {'Kumar'}>
         <ComponentA/>
         </ChannerlContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      {/* <CounterReducer/> */}
+      {/* <CounterReducer2/> */}
+      {/* <CounterReducer3/> */}
+      
 
     </div>
   );
